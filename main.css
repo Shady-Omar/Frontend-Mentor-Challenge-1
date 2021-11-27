@@ -1,0 +1,123 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    width: 255px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 19px;
+    border-radius: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 20px 20px 5px;
+}
+
+.container img {
+    max-width:100%;
+    height:auto;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.container .overlay {
+    background-color: hsl(178, 100%, 50%);
+    position: absolute;
+    width: 255px;
+    height: 255px;
+    border-radius: 9px;
+    top: 4%;
+    opacity: 0;
+}
+
+.container .overlay #view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .overlay:hover {
+    opacity: 0.5;
+}
+
+.container p:first-of-type {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container p:first-of-type:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.container p:last-of-type {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.container .icons {
+    display: flex;
+    align-items: center;
+}
+
+.container .icons #icon {
+    margin-right: 5px;
+}
+
+.container .eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.container .clock {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.container .border {
+    width:100%;
+    height:15px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.container .avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container .avatar img {
+    max-width:100%;
+    height: 25px;
+    margin-top: 13px;
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+
+.container .avatar .credit {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container .avatar .credit span {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.container .avatar .credit span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+}
