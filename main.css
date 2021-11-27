@@ -1,6 +1,12 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
+    margin: 0px;
+    width: 100%;
+    overflow-x: hidden; 
+    padding: 0px;
+    height: 100%;
+
 }
 
 .container {
